@@ -1,0 +1,12 @@
+    header {
+        background-color: map-get($colores, gris);
+    }
+    
+    .link_banner,
+    .link_zigzag {
+        padding: 20px 0;
+    }
+    
+    footer {
+        background-color: map-get($colores, azul);
+    }

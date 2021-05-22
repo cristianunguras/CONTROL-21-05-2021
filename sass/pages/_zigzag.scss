@@ -1,0 +1,24 @@
+.zigzag {
+    display: grid;
+    grid-template-columns: 0px repeat(2, auto) 0px;
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 20px;
+    &__edificio {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    &__textoDcha {
+        grid-column: 3/4;
+        grid-row: 1/2;
+        align-self: center;
+    }
+    &__calle {
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+    &__textoIzq {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        align-self: center;
+    }
+}

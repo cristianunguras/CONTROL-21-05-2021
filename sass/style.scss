@@ -1,32 +1,26 @@
 /* **************************** */
+
+
 /* IMPORTAR PARCIALES PARA COMPILAR */
+
+
 /* **************************** */
 
 // Normalizadores de los Navegadores
-@import 'component/reset/normalize';
-@import 'component/reset/reset';
-
+@import './base/normalize';
+@import './base/reset';
 // Variables
-@import 'component/variables';
-
+@import './abstracts/variables';
 // Tipografias
-@import 'component/tipografias';
-
-// Mixins
-@import 'component/mixins';
-
-// Layouts
-@import 'component/layouts';
-
-// Botones
-@import 'component/botones';
-
-// Links
-@import 'component/links';
-
+@import './base/typography';
 // Grids
-@import 'component/grids';
-
-// Formularios
-@import 'component/formularios';
-
+@import './layout/grid';
+// *******************************
+// CONTENIDO diferente de los HTML
+// *******************************
+// Home-index.html
+@import './pages/index';
+@import './pages/header';
+@import './pages/banner';
+@import './pages/zigzag';
+@import './pages/footer';

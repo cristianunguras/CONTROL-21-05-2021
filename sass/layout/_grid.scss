@@ -1,0 +1,9 @@
+/* @GRIDS */
+
+//grid index.html
+#container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 80px calc(100vh-380px) 300px;
+    grid-gap: 20px;
+}
